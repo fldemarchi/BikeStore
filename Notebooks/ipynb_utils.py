@@ -7,7 +7,7 @@ from hashlib import md5
 import seaborn as sns
 import matplotlib.pyplot as plt
 # for nice df prints that can be copy pasted to chat services
-from tabulate import tabulate
+from tabulate import tabulate 
 from typing import List
 from IPython.display import display
 
