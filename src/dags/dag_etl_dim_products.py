@@ -18,7 +18,7 @@ default_dag_args = {
     'project_id' : 'Bike_Store_BI',
     'retries': 1,
     'on_failure_callback': 'fldemarchi88@gmail.com',
-    'retry_delay': timedelta(minutes=5),
+    'retry_delay': timedelta(minutes=5)
 }
 
 dag = airflow.DAG(
